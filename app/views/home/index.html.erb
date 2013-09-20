@@ -77,38 +77,38 @@
 
     <div class="work_module_container">
       <div class="work_module_left">
-        <%= link_to (image_tag "work_thumb_liz_ryan_(web).jpg", :alt => "Elizabeth & Ryan (Web)", :class => "img_work_thumb"), "#", "data-id" => "#work_01", :name => "lightbox" %>
-        <h4>Elizabeth &amp; Ryan (Web)</h4>
+        <%= link_to (image_tag "work_thumb_geekseek.jpg", :alt => "GeekSeek", :class => "img_work_thumb"), "#", "data-id" => "#work_01", :name => "lightbox" %>
+        <h4>GeekSeek</h4>
         Branding, Design, Development
       </div>
 
       <div class="work_module_center">
-        <%= link_to (image_tag "work_thumb_liz_ryan_(print).jpg", :alt => "Elizabeth & Ryan (Print)", :class => "img_work_thumb"), "#", "data-id" => "#work_02", :name => "lightbox" %>
+        <%= link_to (image_tag "work_thumb_liz_ryan_(web).jpg", :alt => "Elizabeth & Ryan (Web)", :class => "img_work_thumb"), "#", "data-id" => "#work_02", :name => "lightbox" %>
+        <h4>Elizabeth &amp; Ryan (Web)</h4>
+        Branding, Design, Development
+      </div>
+
+      <div class="work_module_right">
+        <%= link_to (image_tag "work_thumb_liz_ryan_(print).jpg", :alt => "Elizabeth & Ryan (Print)", :class => "img_work_thumb"), "#", "data-id" => "#work_03", :name => "lightbox" %>
         <h4>Elizabeth &amp; Ryan (Print)</h4>
         Branding, Design
       </div>
 
-      <div class="work_module_right">
-        <%= link_to (image_tag "work_thumb_ten_sushi.jpg", :alt => "Ten Sushi", :class => "img_work_thumb"), "#", "data-id" => "#work_03", :name => "lightbox" %>
+      <div class="work_module_left">
+        <%= link_to (image_tag "work_thumb_ten_sushi.jpg", :alt => "Ten Sushi", :class => "img_work_thumb"), "#", "data-id" => "#work_04", :name => "lightbox" %>
         <h4>Ten Sushi</h4>
         Design, Development
       </div>
 
-      <div class="work_module_left">
+      <div class="work_module_center">
         <%= image_tag "clock.png", :alt => "Under Construction", :class => "img_work_thumb" %>
         <h4>Laguna Party &amp; Rentals</h4>
         Under Construction
       </div>
 
-      <div class="work_module_center">
-        <%= image_tag "clock.png", :alt => "Under Construction", :class => "img_work_thumb" %>
-        <h4>Laguna Paperie (Working Title)</h4>
-        Under Construction
-      </div>
-
       <div class="work_module_right">
         <%= image_tag "clock.png", :alt => "Under Construction", :class => "img_work_thumb" %>
-        <h4>Red Pyll</h4>
+        <h4>Laguna Paperie (Working Title)</h4>
         Under Construction
       </div>
     </div> <!-- end work_module_container -->
@@ -222,6 +222,24 @@
 
   <div id="work_01" class="window">
     <div class="window_left">
+      <%= image_tag "work_geekseek.jpg", :alt => "GeekSeek", :class => "img_work" %>
+    </div>
+
+    <div class="window_right">
+      <h1>GeekSeek</h1>
+      <h2>Helping Those in Need</h2>
+
+      <p><%= link_to "View Project", "http://www.geekseek.me" %></p>
+
+      During my final week at <%=link_to "Dev Bootcamp", "http://www.devbootcamp.com" %>, I teamed up with two friends to create GeekSeek, a conceptual Ruby on Rails Web application that aimed to connect volunteer technology professionals with non-profit organizations. Doing work that matters will always be important to me.
+
+      <p>Roles: <i>Branding, Design, Development</i></p>
+      <p>Technologies: <i>CSS, HTML, JavaScript, Ruby on Rails, SQL</i></p>
+    </div> <!-- end window_right -->
+  </div> <!-- end window -->
+
+  <div id="work_02" class="window">
+    <div class="window_left">
       <%= image_tag "work_liz_ryan_(web).jpg", :alt => "Elizabeth & Ryan (Web)", :class => "img_work" %>
     </div>
 
@@ -238,7 +256,7 @@
     </div> <!-- end window_right -->
   </div> <!-- end window -->
 
-  <div id="work_02" class="window">
+  <div id="work_03" class="window">
     <div class="window_left">
       <%= image_tag "work_liz_ryan_(print).jpg", :alt => "Elizabeth & Ryan (Print)", :class => "img_work" %>
     </div>
@@ -256,7 +274,7 @@
     </div> <!-- end window_right -->
   </div> <!-- end window -->
 
-  <div id="work_03" class="window">
+  <div id="work_04" class="window">
     <div class="window_left">
       <%= image_tag "work_ten_sushi.jpg", :alt => "Ten Sushi", :class => "img_work" %>
     </div>
